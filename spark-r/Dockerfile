@@ -32,7 +32,7 @@ RUN set -ex; \
     apt-get install -y --no-install-recommends r-base r-base-dev; \
     rm -rf /var/lib/apt/lists/*
 
-ENV R_HOME /usr/lib/R
-ENV R_LIBS /opt/spark/R/lib
+ENV R_HOME=/usr/lib/R
+ENV R_LIBS=/opt/spark/R/lib
 
 USER spark
