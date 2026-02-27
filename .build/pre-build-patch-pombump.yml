@@ -148,3 +148,4 @@ controls:
     hadoop_version: "3.3.6"
     patch_files:
       - aws-sdk-bump.patch
+      - entrypoint.patch      
