@@ -146,4 +146,5 @@ controls:
     python_version: "3.11"
     java_version: "17"
     hadoop_version: "3.3.6"
-    patch_files: []
+    patch_files:
+      - aws-sdk-bump.patch
