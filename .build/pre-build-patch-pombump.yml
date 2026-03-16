@@ -147,6 +147,6 @@ controls:
     java_version: "17"
     hadoop_version: "3.3.6"
     patch_files:
-      - aws-sdk-bump.patch
+#      - aws-sdk-bump.patch
       - entrypoint.patch
       - spark_submit.patch           
